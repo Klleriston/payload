@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# PAYLOAD PHP
+
+Projeto baseado no desafio "Rinha de backend" feito inteiramente com PHP/Laravel e MySQL para persistencia de dados.
+
+## Tecnologias
+- Backend -> PHP/LARAVEL
+- Database -> MySQL
+
+## Social
+- Github: https://github.com/Klleriston
+- Linkedin: https://www.linkedin.com/in/klleriston-andrade-860a22228/
+- X: https://twitter.com/devkekz
+>>>>>>> 30f3685fc414fc38afcc307b3a47d21006531ea6
