@@ -10,15 +10,15 @@ Projeto baseado no desafio "Rinha de backend" feito inteiramente com PHP/Laravel
 
 # Antes de rodar o comando de transação:
 
-![Antes](assets/
+![Antes](assets/DatabaseBefore.png)
 
 # Depois de rodar o comando de transação: 
 
-![Depois](assets/
+![Depois](assets/DatabaseAfter.png)
 
 # EndPoint
 
-![api](assts/
+![api](assets/TransactionRoute.png)
 
 ## Social
 - Github: https://github.com/Klleriston
