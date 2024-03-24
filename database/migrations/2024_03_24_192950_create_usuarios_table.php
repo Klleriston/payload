@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->string('email');
-            $table->integer('saldo');
+            $table->unsignedBigInteger('saldo');
             $table->string('tipoUsuario');
             $table->string('cpf');
             $table->string('cnpj');

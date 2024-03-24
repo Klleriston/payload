@@ -2,18 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Usuario;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
+use App\Models\Usuario;
 
 class UsuarioController extends Controller
 {
     public function getAllUsers(Request $request)
     {
-        $users = Usuario::all();
-        return response()->json($users);
+        try {
+            $usuarios = Usuario::all();
+            return response()->json($usuarios);
+        } catch (ModelNotFoundException $e)
+        {
+            return response()->json(['error' => 'User not found'], 404);
+        }
+
+
     }
 
-    public function createUser(Request $request)
+    public function criarUsuario(Request $request)
     {
         $dadosValido = $request->validate([
             'nome' => 'required|string',

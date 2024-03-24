@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('transacoes', function (Blueprint $table) {
             $table->id();
-            $table-> foreignId('usuarios_id')->references('id')->on('usuarios')->cascadeOnUpdate();
+            $table->foreignId('usuario_id')->references('id')->on('usuarios')->cascadeOnUpdate();
             $table->string('titulo');
+            $table->decimal('valor', 10, 2);
             $table->string('descricao');
             $table->timestamps();
         });
