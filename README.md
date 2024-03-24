@@ -4,7 +4,21 @@ Projeto baseado no desafio "Rinha de backend" feito inteiramente com PHP/Laravel
 
 ## Tecnologias
 - Backend -> PHP/LARAVEL
-- Database -> MySQL
+- Database -> MySQL(FakerPHP/Faker)
+
+## Esquema Mysql
+
+# Antes de rodar o comando de transação:
+
+![Antes](assets/
+
+# Depois de rodar o comando de transação: 
+
+![Depois](assets/
+
+# EndPoint
+
+![api](assts/
 
 ## Social
 - Github: https://github.com/Klleriston
